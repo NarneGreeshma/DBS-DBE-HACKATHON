@@ -1,0 +1,13 @@
+# SmartHire :: resume-intelligence service
+#
+# Python is ONLY allowed to do resume intelligence (rule 2 of the architecture).
+# This service is stateless: it never connects to PostgreSQL and never persists anything.
+fastapi>=0.110,<1.0
+uvicorn>=0.27,<1.0
+pydantic>=2.6,<3.0
+python-multipart>=0.0.9
+pypdf>=4.0,<6.0
+
+# test
+pytest>=8.0,<9.0
+httpx>=0.27,<1.0

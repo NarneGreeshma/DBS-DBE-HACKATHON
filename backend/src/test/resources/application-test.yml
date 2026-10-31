@@ -1,0 +1,12 @@
+# Test profile: uses a dedicated PostgreSQL database so tests exercise the real engine.
+spring:
+  datasource:
+    url: ${TEST_DB_URL:jdbc:postgresql://localhost:5432/smarthire_test}
+    username: ${TEST_DB_USER:smarthire}
+    password: ${TEST_DB_PASSWORD:smarthire}
+
+smarthire:
+  ai:
+    enabled: false
+  jwt:
+    secret: dGVzdC1zZWNyZXQtZm9yLXNtYXJ0aGlyZS1qd3QtdG9raW4tc2lnbmluZy10ZXN0LTIwMjQta2V5

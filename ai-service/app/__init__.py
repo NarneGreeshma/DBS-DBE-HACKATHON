@@ -1,0 +1,1 @@
+"""SmartHire resume-intelligence service."""

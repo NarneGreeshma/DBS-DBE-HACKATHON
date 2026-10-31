@@ -1,0 +1,15 @@
+Alex Rivera
+Senior Backend Engineer
+alex@example.com | +1 415 555 0177
+
+EXPERIENCE
+Senior Engineer, Acme - 2019 to present
+- Built Spring Boot microservices
+- Tuned PostgreSQL
+- Docker on AWS
+
+SKILLS
+Java, Spring Boot, PostgreSQL, Docker, AWS, JUnit
+
+EDUCATION
+B.Tech Computer Science
